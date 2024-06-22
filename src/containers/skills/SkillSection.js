@@ -4,6 +4,7 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 import DataScienceImg from "./DataScienceImg";
+import WebScrapingImg from "./WebScrapingImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
@@ -15,7 +16,9 @@ function GetSkillSvg(props) {
     return <FullStackImg theme={props.theme} />;
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
+  else if (props.fileName === "WebScrapingImg")
+    return <WebScrapingImg theme={props.theme} />;
+  else return <DesignImg theme={props.theme} />;
 }
 
 class SkillSection extends Component {
