@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "Experienced Software Engineer proficient in Python, Django, ReactJS, and Next.js, with expertise in web scraping. Dedicated to developing robust web applications, I specialize in integrating cutting-edge technologies to innovate and optimize efficiency.",
   resumeLink: "http://resume.arshanaslam.me",
-  portfolio_repository: "https://github.com/arshanaslam1",
+  portfolio_repository: "https://www.linkedin.com/in/arshanaslam1/",
   githubProfile: "https://github.com/arshanaslam1",
 };
 
@@ -73,6 +73,12 @@ const socialMediaLinks = [
     link: "https://www.instagram.com/arshanaslam1/",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  },
+  {
+    name: "Whatsapp",
+    link: "https://wa.me/923217540974",
+    fontAwesomeIcon: "fa-whatsapp", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#43af06", // Reference https://simpleicons.org/?q=instagram
   },
 ];
 
@@ -570,8 +576,8 @@ const contactPageData = {
     location_map_link: "",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone",
+    subtitle: "+92 321 7540974",
   },
 };
 

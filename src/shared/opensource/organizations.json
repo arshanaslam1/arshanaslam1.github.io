@@ -1,14 +1,1 @@
-{
-  "data": [
-    {
-      "login": "digipops",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7631646?v=4",
-      "__typename": "Organization"
-    },
-    {
-      "login": "Ignicube",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/106507265?v=4",
-      "__typename": "Organization"
-    }
-  ]
-}
+{"data":[{"login":"digipops","avatarUrl":"https://avatars.githubusercontent.com/u/7631646?v=4","__typename":"Organization"},{"login":"Ignicube","avatarUrl":"https://avatars.githubusercontent.com/u/106507265?v=4","__typename":"Organization"}]}

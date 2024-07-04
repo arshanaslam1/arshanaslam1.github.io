@@ -2,8 +2,11 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { contactPageData, greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+
+
+const blogSection = contactPageData.blogSection;
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -47,6 +50,18 @@ class Header extends Component {
                 >
                   Home
                 </NavLink>
+              </li>
+              <li>
+                <a
+                  href={blogSection.link}
+                  target={"_blank"}
+                  style={{ color: theme.text }}
+                  activeStyle={{ fontWeight: "bold" }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  Blog
+                </a>
               </li>
               <li>
                 <NavLink
@@ -115,4 +130,5 @@ class Header extends Component {
     );
   }
 }
+
 export default Header;
