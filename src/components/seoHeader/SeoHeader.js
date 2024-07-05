@@ -7,6 +7,7 @@ import {
   experience,
   contactPageData,
   certifications,
+  competitiveSites,
 } from "../../portfolio.js";
 
 function SeoHeader() {
@@ -64,9 +65,39 @@ function SeoHeader() {
     <Helmet>
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
-      <meta property="og:title" content={seo?.og?.title} />
+      <meta name="keywords" content={seo.keywords} />
+
       <meta property="og:type" content={seo?.og?.type} />
+      <meta property="og:title" content={seo?.og?.title} />
+      <meta property="og:description" content={seo?.og?.description} />
+      <meta
+        property="og:image"
+        content={require(`../../assests/images/${seo?.og?.image}`)}
+      />
       <meta property="og:url" content={seo?.og?.url} />
+      <meta property="og:site_name" content={seo?.og?.site_name} />
+
+      <meta name="twitter:card" content={seo?.twitter?.cardType} />
+      <meta name="twitter:title" content={seo?.twitter?.title} />
+      <meta name="twitter:description" content={seo?.twitter?.description} />
+      <meta
+        name="twitter:image"
+        content={require(`../../assests/images/${seo?.twitter?.image}`)}
+      />
+      <meta name="twitter:url" content={seo?.twitter?.url} />
+      <meta name="twitter:site" content={seo?.twitter?.site} />
+
+      <link rel="canonical" href={seo?.og?.url} />
+      <link rel="author" href={greeting.title} />
+      {/*// Linking Social Profiles --*/}
+
+      {socialMediaLinks.map((media) => {
+        return <link rel="me" href={media.link} />;
+      })}
+      {competitiveSites.competitiveSites.map((media) => {
+        return <link rel="me" href={media.profileLink} />;
+      })}
+
       <script type="application/ld+json">{JSON.stringify(data)}</script>
     </Helmet>
   );

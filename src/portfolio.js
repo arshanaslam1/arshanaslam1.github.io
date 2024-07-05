@@ -7,12 +7,28 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Arshan's Portfolio",
+  title: "Arshan Aslam - Software Engineer",
   description:
-    "Experienced Software Engineer proficient in Python, Django, ReactJS, and Next.js, with expertise in web scraping. Dedicated to developing robust web applications, I specialize in integrating cutting-edge technologies to innovate and optimize efficiency.",
+    "Versatile Software Engineer with expertise in Python, Django, Scrapy, DRF, React.js, Redux, Next.js, JavaScript, and TypeScript. Seeking challenging projects to apply and expand my knowledge.",
+  keywords:
+    "Arshan Aslam, Software Engineer, Python, Django, DRF, React.js, Redux, Next.js, JavaScript, TypeScript, DevOps, Web Development, Full Stack Developer, Scrapy",
   og: {
+    // type: "website",
+    type: "profile",
     title: "Arshan Aslam Portfolio",
-    type: "website",
+    description:
+      "Versatile Software Engineer with expertise in Python, Django, Scrapy, DRF, React.js, Redux, Next.js, JavaScript, and TypeScript. Seeking challenging projects to apply and expand my knowledge.",
+    image: "og_image.png",
+    url: "http://arshanaslam.me/",
+    site_name: "Arshan Aslam - Software Engineer",
+  },
+  twitter: {
+    site: "@arshanaslam1",
+    cardType: "summary_large_image",
+    title: "Arshan Aslam - Software Engineer",
+    description:
+      "Versatile Software Engineer with expertise in Python, Django, Scrapy, DRF, React.js, Redux, Next.js, JavaScript, and TypeScript. Seeking challenging projects to apply and expand my knowledge.",
+    image: "og_image.png",
     url: "http://arshanaslam.me/",
   },
 };
@@ -200,7 +216,7 @@ const skills = {
       fileName: "DataScienceImg",
       skills: [
         "⚡ Expertise in advanced web scraping techniques using Python and sophisticated libraries such as BeautifulSoup, Scrapy, and Selenium.",
-        "⚡ Proficient in handling JavaScript-rendered content and dynamic elements with Selenium and headless browsers like Puppeteer.",
+        "⚡ Proficient in handling JavaScript-rendered content and dynamic elements with Selenium.",
         "⚡ Implementing strategies for effective web scraping, including the use of proxies and rotating user agents to circumvent anti-scraping measures.",
         "⚡ Extracting, processing, and storing scraped data efficiently in databases like PostgreSQL, MySQL, and MongoDB.",
         "⚡ Orchestrating and managing complex web scraping workflows using Celery and Redis for distributed task execution and monitoring.",
@@ -225,14 +241,6 @@ const skills = {
         {
           skillName: "Selenium",
           fontAwesomeClassname: "logos:selenium",
-          style: {
-            backgroundColor: "transparent",
-            color: "#55e41b",
-          },
-        },
-        {
-          skillName: "Puppeteer",
-          fontAwesomeClassname: "devicon:puppeteer",
           style: {
             backgroundColor: "transparent",
             color: "#55e41b",
@@ -513,7 +521,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Web projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 };
 
