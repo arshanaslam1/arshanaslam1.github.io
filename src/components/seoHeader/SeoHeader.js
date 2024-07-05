@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+
 import {
   greeting,
   seo,
@@ -72,7 +73,7 @@ function SeoHeader() {
       <meta property="og:description" content={seo?.og?.description} />
       <meta
         property="og:image"
-        content={require(`../../assests/images/${seo?.og?.image}`)}
+        content={seo?.og?.image}
       />
       <meta property="og:url" content={seo?.og?.url} />
       <meta property="og:site_name" content={seo?.og?.site_name} />
@@ -82,7 +83,7 @@ function SeoHeader() {
       <meta name="twitter:description" content={seo?.twitter?.description} />
       <meta
         name="twitter:image"
-        content={require(`../../assests/images/${seo?.twitter?.image}`)}
+        content={seo?.og?.image}
       />
       <meta name="twitter:url" content={seo?.twitter?.url} />
       <meta name="twitter:site" content={seo?.twitter?.site} />
