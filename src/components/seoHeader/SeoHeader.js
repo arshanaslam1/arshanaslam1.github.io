@@ -65,6 +65,7 @@ function SeoHeader() {
   return (
     <Helmet>
       <title>{seo.title}</title>
+      <meta name="title" content={seo.title} />
       <meta name="description" content={seo.description} />
       <meta name="keywords" content={seo.keywords} />
 
