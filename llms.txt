@@ -1,0 +1,81 @@
+# Arshan Aslam — AI Engineer & Full-Stack Developer
+
+> Software engineer with 5+ years of experience building production-grade AI systems, cloud-native backends, and full-stack SaaS products. Based in Lahore, Pakistan. Available for freelance AI engineering projects.
+
+## About
+
+Arshan Aslam is an AI Engineer and Full-Stack Developer specialising in the intersection of artificial intelligence and production software. He builds RAG pipelines, multi-agent systems, HIPAA-compliant backends, and scalable cloud-native applications. Currently working remotely with DigiPops (US).
+
+- Email: hello@arshanaslam.me
+- Website: https://arshanaslam.me
+- Blog: https://blog.arshanaslam.me
+- GitHub: https://github.com/arshanaslam1
+- LinkedIn: https://linkedin.com/in/arshanaslam1
+- Location: Lahore, Pakistan
+
+## Core Skills
+
+**AI & LLM Engineering:** LangChain, LangGraph, RAG Systems, LangSmith, CrewAI, Vector Databases, Pinecone, Qdrant, OpenAI API, Claude API, Prompt Engineering, MCP Servers
+
+**Backend Engineering:** Python, Django, Django REST Framework, FastAPI, Celery, Redis, WebSockets, REST APIs, GraphQL
+
+**Voice & Multimodal AI:** Whisper (STT), Deepgram, ElevenLabs (TTS), Voice Agents, Real-time AI, n8n Automation
+
+**Frontend Development:** React.js, Next.js, TypeScript, Redux, SSR/SSG, Storybook, Tailwind CSS
+
+**Cloud & Infrastructure:** AWS, GCP, Docker, Terraform, CI/CD, GitHub Actions, Microservices, HIPAA Compliance
+
+**Databases:** PostgreSQL, MongoDB, pgvector, ChromaDB, Redis, Semantic Search
+
+## Work Experience
+
+### DigiPops — Software Engineer (Jan 2023 – Present)
+*United States · Remote*
+
+Built cloud-native applications and real-time systems including a full-featured OTT film festival and streaming platform. Architected scalable backend using Django REST Framework and PostgreSQL; integrated Redis and Celery for asynchronous video processing. Implemented SSR via Next.js. Achieved 90%+ test coverage.
+
+Stack: Python, Django, Django REST Framework, React.js, Next.js, Redux, Redis, Celery, AWS, GCP, PostgreSQL
+
+### Ignicube — Software Engineer (Jan 2022 – Aug 2023)
+*Lahore, Pakistan*
+
+Built AI-powered applications and large-scale platforms:
+
+- **AI Agent Platform**: Orchestration layer using LangChain, RAG with vector databases for enterprise Q&A and decision support
+- **HIPAA & FERPA-Compliant Healthcare App**: Secure patient engagement system with audit logging, access control, Django microservices
+- **Muesy**: Real-time social media platform for creators using WebSockets and Redis
+- **Sapphire & Enterprise Ecommerce**: SEO-optimised real estate marketplace with intelligent search and map-based filtering
+
+Stack: Python, Django, DRF, React.js, Next.js, PostgreSQL, MongoDB, LangChain, RAG, Docker, AWS, GCP
+
+## Education
+
+**B.Sc. Computer Science** — Virtual University of Pakistan (2018–2022)
+
+## Certifications
+
+- DevOps, Cloud, and Agile Foundations — IBM (2024)
+- Modern Big Data Analysis with SQL — Cloudera (2021)
+- Django for Everybody — University of Michigan (2022)
+- Python for Everybody — University of Michigan (2021)
+- Python Developer — DataCamp (2021)
+- Python — HackerRank (2021)
+- Python — Kaggle (2021)
+- Advance Your Skills as a Django Developer — LinkedIn (2022)
+- Explore React.js Development — LinkedIn (2022)
+- Improve Your React Skills — LinkedIn (2022)
+
+## Services
+
+Available for freelance engagements:
+
+1. **AI Integration Sprint** ($1,500–$3,000): Proof-of-concept AI feature in 2 weeks — RAG chatbot, document Q&A, intelligent search
+2. **Full AI Feature Build** ($4,000–$10,000): Production-grade multi-agent workflow, voice assistant, or full AI integration in 4–6 weeks
+3. **Ongoing AI Retainer** ($2,500/month): Monthly AI engineering support — features, model updates, monitoring, evaluation
+
+## Pages
+
+- [Home / About](https://arshanaslam.me/)
+- [Experience](https://arshanaslam.me/experience)
+- [Education](https://arshanaslam.me/education)
+- [Services](https://arshanaslam.me/services)
